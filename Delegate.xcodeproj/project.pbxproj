@@ -15,6 +15,8 @@
 		BD49530B221D46A9000E7190 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD49530A221D46A9000E7190 /* main.m */; };
 		BD495315221D46A9000E7190 /* DelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD495314221D46A9000E7190 /* DelegateTests.m */; };
 		BD495320221D46A9000E7190 /* DelegateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD49531F221D46A9000E7190 /* DelegateUITests.m */; };
+		BD495330221D47F1000E7190 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD49532E221D47F1000E7190 /* NextViewController.m */; };
+		BD495331221D47F1000E7190 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD49532F221D47F1000E7190 /* NextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		BD49531B221D46A9000E7190 /* DelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD49531F221D46A9000E7190 /* DelegateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateUITests.m; sourceTree = "<group>"; };
 		BD495321221D46A9000E7190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD49532D221D47F1000E7190 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		BD49532E221D47F1000E7190 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		BD49532F221D47F1000E7190 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				BD4952FC221D46A6000E7190 /* AppDelegate.m */,
 				BD4952FE221D46A6000E7190 /* ViewController.h */,
 				BD4952FF221D46A6000E7190 /* ViewController.m */,
+				BD49532D221D47F1000E7190 /* NextViewController.h */,
+				BD49532E221D47F1000E7190 /* NextViewController.m */,
+				BD49532F221D47F1000E7190 /* NextViewController.xib */,
 				BD495301221D46A6000E7190 /* Main.storyboard */,
 				BD495304221D46A9000E7190 /* Assets.xcassets */,
 				BD495306221D46A9000E7190 /* LaunchScreen.storyboard */,
@@ -236,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD495308221D46A9000E7190 /* LaunchScreen.storyboard in Resources */,
+				BD495331221D47F1000E7190 /* NextViewController.xib in Resources */,
 				BD495305221D46A9000E7190 /* Assets.xcassets in Resources */,
 				BD495303221D46A6000E7190 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD495300221D46A6000E7190 /* ViewController.m in Sources */,
+				BD495330221D47F1000E7190 /* NextViewController.m in Sources */,
 				BD49530B221D46A9000E7190 /* main.m in Sources */,
 				BD4952FD221D46A6000E7190 /* AppDelegate.m in Sources */,
 			);

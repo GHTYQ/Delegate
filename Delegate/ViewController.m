@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "NextViewController.h"
+@interface ViewController ()<NextViewDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *showLab;
 
 @end
 
@@ -17,7 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.showLab.text=@"点击进入下一界面";
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NextViewController *nvc=[[NextViewController alloc]init];
+    //遵守协议
+    nvc.NDelegate=self;
+    [self presentViewController:nvc animated:YES completion:nil];
+}
+//实现委托方法
+-(void)sendValue:(NSString *)value{
+    NSLog(@"上一界面传过来的value:%@",value);
+    self.showLab.text=value;
+}
 
 @end
